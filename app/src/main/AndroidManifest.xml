@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.hariobudiharjo.swdata">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,33 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.Detail.StarshipActivity">
+        </activity>
+        <activity android:name=".Activity.Detail.VehicleDetailActivity">
+        </activity>
+        <activity android:name=".Activity.Detail.SpecieDetailActivity">
+        </activity>
+        <activity android:name=".Activity.Detail.PlanetDetailActivity">
+        </activity>
+        <activity android:name=".Activity.Detail.PeopleDetailActivity">
+        </activity>
+        <activity android:name=".Activity.Detail.FilmDetailActivity">
+        </activity>
+        <activity android:name=".Activity.List.VehicleListActivity">
+        </activity>
+        <activity android:name=".Activity.List.StarListActivity">
+        </activity>
+        <activity android:name=".Activity.List.SpeciesListActivity">
+        </activity>
+        <activity android:name=".Activity.List.PlanetListActivity">
+        </activity>
+        <activity android:name=".Activity.List.FilmListActivity">
+        </activity>
+        <activity android:name=".Activity.Detail.DetailActivity">
+        </activity>
+        <activity android:name=".Activity.List.PeopleListActivity">
+        </activity>
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
